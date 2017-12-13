@@ -18,20 +18,20 @@ Use this configuration to your ```vvv-custom.yml```.
 
 ```
 dev-example:
-	repo: https://github.com/pkvillanueva/vvv-template.git
-	hosts:
-    	- dev-example.test
-    	- dev-example.local
-    custom:
-	    project_repo: https://github.com/pkvillanueva/wordpress-project-boilerplate.git
-		db_name: dev_example
+  repo: https://github.com/pkvillanueva/vvv-template.github
+  hosts:
+    - dev-example.test
+    - dev-example.local
+  custom:
+    project_repo: link_to_your_repo
+    db_name: dev_example
 ```
 
 ### Site custom config
 
 All available settings inside ```custom``` config.
 
-| Setting      | Value                                                             | Description                                 |
-| ------------ | ----------------------------------------------------------------- | ------------------------------------------- |
-| project_repo | https://github.com/pkvillanueva/wordpress-project-boilerplate.git | Specify your WP project repository.         |
-| db_name      | dev_example                                                       | Your database name to create on initialize. |
+| Setting      | Value             | Description                                 |
+| ------------ | ----------------- | ------------------------------------------- |
+| project_repo | link_to_your_repo | Specify your WP project repository.         |
+| db_name      | dev_example       | Your database name to create on initialize. |
