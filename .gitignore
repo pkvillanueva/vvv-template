@@ -1,2 +1,6 @@
+# Directories
 /log/
 /public_html/
+
+# Files
+/provision/vvv-nginx.conf
