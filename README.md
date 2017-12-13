@@ -17,14 +17,14 @@ I've created this to separate the VVV basic template requirements for adding new
 Use this configuration to your ```vvv-custom.yml```.
 
 ```
-dev-example:
-  repo: https://github.com/pkvillanueva/vvv-template.github
-  hosts:
-    - dev-example.test
-    - dev-example.local
-  custom:
-    project_repo: link_to_your_repo
-    db_name: dev_example
+  dev-example:
+    repo: https://github.com/pkvillanueva/vvv-template.github
+    hosts:
+      - dev-example.test
+      - dev-example.local
+    custom:
+      project_repo: link_to_your_repo
+      db_name: dev_example
 ```
 
 ### Site custom config
